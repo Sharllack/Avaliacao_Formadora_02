@@ -60,7 +60,8 @@
             <input type="date" name="dataFim" id="idFim">
 
             <h5 id="obs">Observações:</h5>
-            <textarea name="obs" id="idobs" cols="30" rows="10" maxlength="200" placeholder="Deixe um recado para a UNISUAM."></textarea>
+            <textarea oninput="atualizarContador()" name="obs" id="idobs" cols="30" rows="10" maxlength="200" placeholder="Deixe um recado para a UNISUAM."></textarea>
+            <div id="cont">0/200</div>
 
 
             <div id="rodape_card">

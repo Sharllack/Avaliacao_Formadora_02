@@ -196,6 +196,12 @@ textarea {
     height: 100px;
 }
 
+#cont {
+    text-align: right;
+    margin-right: 35px;
+    font-size: .8em;
+}
+
 .ajuste-logo {
     display: flex;
     justify-content: center;
