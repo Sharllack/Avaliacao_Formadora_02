@@ -26,8 +26,8 @@ body {
 .login-info {text-align: center; margin-top: 20px; color: white}
 
 #formContent {
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     background: #fff;
     padding: 15px 10px 5px 10px;
     width: 40%;
@@ -99,7 +99,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active{
     transform: scale(0.95);
 }
 
-input[type=text], input[type=date], input[type=email], input[type=tel], input[type=password], select, textarea{
+input[type=text], input[type=date], input[type=email], input[type=tel], input[type=password], select, textarea, #inte{
     background-color: #E8F0FE;
     border: none;
     color: #0d0d0d;
@@ -116,8 +116,8 @@ input[type=text], input[type=date], input[type=email], input[type=tel], input[ty
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -169,14 +169,12 @@ h3 {
     font-weight: bold;
 }
 
-#idcsen, #idest, select, #idFim {
-    margin-bottom: 30px;
+#inte {
+    font-size: .9em;
 }
 
-#inte {
-    text-align: left;
-    margin: auto;
-    width: 80%;
+#idcsen, #idest, select, #idFim {
+    margin-bottom: 30px;
 }
 
 #sel {
@@ -195,6 +193,7 @@ label {
 
 textarea {
     resize: none;
+    height: 100px;
 }
 
 .ajuste-logo {
